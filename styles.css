@@ -1,0 +1,92 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">);
+
+
+:root {
+    --primary--color: #000000;
+    --light--brown: #f5efe9;
+    --dark--brown: #50382B;
+    --primary--bg:#ffd500;
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+    margin: 0px;
+    background-color: var(--primary--bg);
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    font-weight: 300;
+    border:1rem double #000000;
+    border-radius: 1rem;
+    
+
+   
+
+}
+textarea{
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: left;
+    margin: auto;
+    font-size: x-large;
+    
+    
+}
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color:white;
+    border-radius: 1rem;
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
+}
+
+#btn-translate{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    display: block;
+    padding-top: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem; font-family: 'Pacifico', cursive;
+    background-color: var(--primary--color);
+    color: var(--primary--bg);
+    border-radius: 1rem;
+
+
+}
+h2{margin-top: 10rem;}
+#spin {
+    color:var(--primary--color);
+  }
+  #spin:after {
+    content:"";
+    animation: spin 5s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"The average Minion stands at 105cm in height"; }
+    10% { content:"The poster for Despicable Me 2 apparently contains more than 10,400 individual Minions."; }
+    20% { content:"Minions have only three fingers."; }
+    30% { content:"One-eyed minions are rarely tall."; }
+    40% { content:"Tall minions all have the same haircut."; }
+    50% { content: "Minions have only three fingers."; }
+    60% { content: " The evil Minions are purple because purple and yellow are on opposite sides of the color spectrum."; }
+    70% { content: "Minions speak a mixture of Spanish, English, French, and Italian, with additional elements of Russian and Korean.ic"; }
+    80% { content: "at All Minions playing a significant role in the films are given male names.que"; }
+    90% { content: "fugThere are only 5 natural hairstyles for Minions in the Despicable Me films, including being bald.a"; }
+  }
+
+  .hero{
+    background:black;
+    color: var(--primary--bg);
+    display: block;
+   
+  }
